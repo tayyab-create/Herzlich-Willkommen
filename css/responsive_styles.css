@@ -1,0 +1,324 @@
+@media screen and (max-width: 1024px) {
+  .text__heading--primary {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .navigation__menu {
+    display: none;
+  }
+
+  .navigation__search-container {
+    display: none;
+  }
+
+  .navigation__toggle {
+    display: block;
+  }
+  .navigation__menu {
+    gap: 0px;
+    text-align: center;
+  }
+
+  .navigation__menu.responsive {
+    position: absolute;
+    top: 85px;
+    width: 100vw;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation__menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    color: black;
+  }
+  .navigation__menu.responsive .dropdown {
+    float: none;
+  }
+  .navigation__menu.responsive .dropdown__content {
+    position: relative;
+  }
+  .navigation__menu.responsive .dropdown .dropdown__dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown .dropdown__dropbtn {
+    height: auto;
+    margin: 0;
+  }
+
+  .dropdown__content a:last-child {
+    margin-bottom: 0px;
+  }
+
+  .dropdown__content a {
+    color: #000;
+    z-index: 9999;
+    margin: 0;
+  }
+
+  .dropdown__content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    background: #fff;
+    top: 0px;
+    border-left: 0px;
+  }
+
+  /* Service section */
+
+  .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .service__image-container {
+    display: flex;
+    flex-direction: column;
+    opacity: 0.85;
+  }
+
+  .service__image {
+    max-height: 13vh;
+  }
+
+  .service__label {
+    text-align: center;
+  }
+
+  .faq__left-gradient-image {
+    min-height: 150vh;
+  }
+
+  /* Service page */
+  .beruf__details-left {
+    width: 50%;
+  }
+
+  .beruf__details-image {
+    max-height: 200px;
+  }
+
+  .beruf__number_heading {
+    font-size: 4.5rem;
+  }
+  .beruf__number_heading:first-child {
+    margin-top: 20px;
+  }
+  .beruf__title {
+    font-size: 24px;
+  }
+
+  .beruf__description-right,
+  .beruf__description-left {
+    font-size: 14rem;
+  }
+  .beruf__image {
+    width: 200px;
+    height: auto;
+  }
+  .beruf__image-large {
+    width: 250px;
+    height: auto;
+  }
+  .beruf__text-container {
+    max-width: 85%;
+  }
+
+  .beruf__termine {
+    font-size: 1.75rem;
+  }
+
+  .grid__container {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid__item-1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid__item-2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid__item-3 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .side__button {
+    position: relative;
+    top: 15vh;
+  }
+  .side__button.down {
+    position: relative;
+    top: 30vh;
+  }
+
+  .text__heading--primary {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .text__heading--primary-large {
+    text-align: center;
+    font-size: 28px;
+    line-height: 26px;
+    max-width: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .text__heading--secondary {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 50%;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .navigation__logo {
+    height: 40px;
+  }
+
+  .hero__image-container {
+    width: 220px;
+    margin-top: 12%;
+  }
+
+  .hero__image {
+    background-image: url("../upload/images/home_hero_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 24vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .service__image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0.85;
+  }
+
+  .service__image {
+    max-height: 10vh;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .footer__container-left {
+    display: none;
+  }
+
+  .footer__container-right {
+    display: none;
+  }
+  .footer__container-middle {
+    margin: 0 auto;
+  }
+
+  .footer__container-logo {
+    max-height: 120px;
+    padding: 12% 0%;
+  }
+
+  .faq__left-gradient-image {
+    min-height: 100vh;
+  }
+
+  /* beruf page */
+
+  .beruf__details-left {
+    display: none;
+  }
+  .beruf__details-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text__heading--primary-large {
+    text-align: center;
+    margin: auto;
+  }
+
+  /* beruf */
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block !important;
+    text-align: center;
+  }
+
+  .beruf__description-container {
+    flex-direction: column;
+  }
+
+  .beruf__image {
+    display: none;
+  }
+  .beruf__description-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .beruf__description-right {
+    display: none;
+  }
+
+  .right {
+    justify-content: center;
+  }
+  .grid__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid__item-1 {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid__item-2 {
+    justify-content: center;
+    align-items: center;
+  }
+  .grid__item-3 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text__paragraph {
+    font-size: 0.85rem;
+  }
+}
